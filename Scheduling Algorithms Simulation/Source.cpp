@@ -24,7 +24,7 @@ class Node {
 private:
 	int id = 0;
 	float arrival_time = 0, burst_time = 0, turnaround_time = 0, waiting_time = 0, priority = 0;
-	Node* link_next;
+	Node* link_next = NULL;
 	Node* head = NULL;//pointer to start of the list (left)
 	Node* tail = NULL;//pointer to end of the list(right)
 public:
